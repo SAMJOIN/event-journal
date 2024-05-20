@@ -1,0 +1,17 @@
+.tableBox {
+  margin: 20px 80px 20px 80px;
+}
+.readRow {
+  background-color: white;
+  color: black;
+}
+
+.ureadRow {
+  background-color: rgba(0, 115, 255, 0.63);
+  color: black;
+}
+@media (max-width: 920px) {
+  .tableBox {
+    margin: 0;
+  }
+}

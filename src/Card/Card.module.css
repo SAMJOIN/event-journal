@@ -1,0 +1,21 @@
+.card {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 420px;
+    height: 170px;
+    background-color: rgba(0, 115, 255, 0.63);
+}
+.card.read {
+    background-color: white;
+}
+.img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.read {
+    background-color: red;
+}

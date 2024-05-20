@@ -1,0 +1,48 @@
+.contentBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 20px;
+}
+.paginator {
+  width: 100%;
+  position: absolute;
+  align-items: center;
+  bottom: 0;
+  margin-bottom: 50px;
+}
+.searchBox {
+    display: flex;
+    align-items: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 80px 10px 80px;
+}
+
+.input {
+  padding: 5px;
+  margin: 0 5px 0 5px;
+}
+.button {
+    padding: 5px;
+    margin: 5px;
+}
+
+@media (max-width: 660px) {
+  .table {
+    margin: 0;
+  }
+  .header {
+    margin: 10px 0 10px 0;
+  }
+  .paginator {
+    margin-bottom: 0;
+  }
+  .button {
+    font-size: 12px;
+  }
+}
